@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.88.1">
+  <title>Carousel Template · Bootstrap v5.1</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#myCarousel">Latest</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#info">info</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Links">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../assets/dist/images/roronoa-zoroArt.jpg">
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>One-Pice</h1>
+              <p>Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure
+                ever left by the legendary Pirate, Gold Roger.
+                The famous mystery treasure named "One Piece".</p>
+              <p><a class="btn btn-lg btn-primary" href="#onePice">Lern more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/dist/images/allanimafull.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> My "Best of anima" Site.</h1>
+              <p>Here you will find all the anime series that interest me, the more series I like, the more the site
+                will grow and improve, hope you enjoy ;)</p>
+              <p><a class="btn btn-lg btn-primary" href="#Links">Start Viewing</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="../assets/dist/images/themnaruto.webp">
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Naruto</h1>
+              <p>Naruto has a lot of parts such as Naruto skewer Naruto etc., I am still in the process of watching the
+                series, you are welcome to come and experience the journey with me :)</p>
+              <p><a class="btn btn-lg btn-primary" href="#narutO">Show info</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div id="Links" class="row">
+        <div class="col-lg-4">
+          <img src="../assets/dist/images/narotoarT.jpg" class="bd-placeholder-img rounded-circle" width="230"
+            height="230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 230x230"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">
+          </text></svg>
+
+          <h2>naruto</h2>
+          <p>Naruto Uzumaki (Japanese う ず ま き ナ ル ル and in English Naruto Uzumaki) is the main character of the series
+            "Naruto". The name Naruto can mean "vortex", which is also the name of a cut stick with a pink vortex in its
+            middle that is used to put on ramen, which is also the food that Naruto loves. Uzumaki "is a
+            three-dimensional spiral, like a vortex. A more accurate meaning would be" Rasen ", which is also part of
+            the name of Naruto's attack, the" Rasengan ", also the leaf symbol of a leaf village painted with an arrow
+            attached to a spiral, also part of the seal on his stomach is A spiral, and also the symbol on his jacket
+            and shoulders is a spiral. Another meaning of the name "Uzumaki" is "storm", which is probably named after
+            the vortex "Naruto" (which actually happened in the city of Naruto). Another interesting fact, is that his
+            mother, Kushina Uzumaki, is from the land of the whirlpool.
+          </p>
+          <p><a class="btn btn-secondary" href="https://shippuden.co.il/">Lets Start! &raquo;</a></p>
+
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="../assets/dist/images/zoroT.jpg" class="bd-placeholder-img rounded-circle" width="230"
+            height="230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 230x230"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em"></text>
+
+          <h2>One-Pice</h2>
+          <p> 'The Land of the One Piece' '(Japanese ワ ン ピ ー ス, [בעברית]: וואן פיס) is a manga series created by Eichiro
+            Odeh and first published in Japan in August 1997. The plot of the series which takes place in a fictional
+            world focuses on a group of pirates and their leader Captain Monkey enough. Luffy, who aspires to find the
+            ultimate "Van Peace" treasure and thus become the king of pirates. The One Piece manga series was first
+            released in Japan in 1997 by the Japanese publisher Shueisha in the Japanese magazine "Weekly Shōnen Jump".
+            Today the manga series is still in production with over 55 volumes published to date.</p>
+          <p><a class="btn btn-secondary" href="https://onepiece-nakama.com">Lets Start! &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="../assets/dist/images/allGoko.webp" class="bd-placeholder-img rounded-circle" width="230"
+            height="230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 230x230"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">
+          </text></svg>
+
+          <h2>Dragon-Ball</h2>
+          <p>Dragon Ball (Japanese: ド ラ ゴ ン ボ ー ー ル, Hebrew: Dragon Ball) is a popular Japanese anime and manga series
+            created by Akira Toriyama inspired by the popular Chinese novel "Journey to the West". The television series
+            aired in Japan from 1986-1989.
+
+            The manga series was published in "Weekly Shōnen Jump" (Ramadi Edition) in the years 1984-1995. 519 episodes
+            of the series were bound in 42 volumes. The success of the series led to the production of four animated
+            series in the Dragon Ball franchise of Tui Animation Studios, as well as the creation of special TV shows,
+            video games, anime films (most of which were dubbed into Hebrew "Dragon Ball" and "Dragon Ball Z"), and even
+            a live-movie American Action (2009) called "Dragon Ball: Evolution". The series has been appreciated by
+            manga artists, and some have noted that it has inspired them to develop successful manga series, such as
+            Masashi Kishimoto's Naruto and Aichiro Ode's One Piece.
+
+            In Israel, unlike the other series in the franchise, the original series was not broadcast on television.
+          </p>
+          <p><a class="btn btn-secondary" href="https://dragonballz.co.il/">Lets Start &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div id="info" class="row featurette">
+        <div id="one_pice" class="col-md-7">
+          <h2 class="featurette-heading">One-Pice Nakama. <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">'1) Lucky Row knows how to draw.
+
+            2) Yasup is able to hit a fly between the eyes from a distance of miles.
+
+            3) The average giant lives to the age of 350.
+
+            4) The average dwarf lives up to the age of 150.
+
+            5) The mermaid's tail splits at age 30.
+
+            6) The All Blue contains fish species from all four days.
+
+            7) 2 characters so far have shown ability to deflect bullets / bullets with their blades, and they are
+            Tashigi and Casting.
+
+            8) Tashigi's dream is to collect all the Maito, when Zoro asked her if she wanted his sword she said she did
+            not necessarily want them for herself but would just be in safe hands.
+
+            9) Zoro's Yubashiri was the best-selling merchandise seller in Logtown.
+
+            10) Zoro's Kitatsu is heavier than an average sword and is also capable of cutting by itself, in addition
+            Zoro is able to feel its presence.
+
+            11) All the cactus hills in Whiskey Pick are covered in tombs.
+
+            12) Zoro eliminated / defeated 99 out of 100 Baroque Works agents at Whiskey Pick.
+
+            13) Zoro and Nami are able to drink a lot without getting drunk, of course there is a limit but it is
+            insane, in their son whiskey pick competition Nami defeated Zoro, Zoro fell after 13 people and reached the
+            edge, while Nami held against 15 people and could go on for a lot more. As a fencer Zoro can not afford to
+            fall for alcohol, and Nami can continue to drink much more than she presented, especially on an interesting
+            island like Whiskey Pick.
+            So if you ever see one of them getting drunk in the future you will know that this is probably a show or
+            they just broke their drinking limit.
+
+            14) Zoro cut a cannonball at Baratti with his eyes closed.
+
+            15) Chopper is able to communicate with animals, and in addition his senses are very developed.
+
+            16) Top 9 Pearl Pearl Bullets with his wooden leg.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img src="../assets/dist/images/Wano_Country_Arc.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div id="narutO" class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Naruto Uzumaki (Japanese う ず ま き ナ ル ル and in English Naruto Uzumaki) is the main character of
+            the series "Naruto". The name Naruto can mean "vortex", which is also the name of a cut stick with a pink
+            vortex in its middle that is used to put on ramen, which is also the food that Naruto loves. Uzumaki "is a
+            three-dimensional spiral, like a vortex. A more accurate meaning would be" Rasen ", which is also part of
+            the name of Naruto's attack, the" Rasengan ", also the leaf symbol of a leaf village painted with an arrow
+            attached to a spiral, also part of the seal on his stomach is A spiral, and also the symbol on his jacket
+            and shoulders is a spiral. Another meaning of the name "Uzumaki" is "storm", which is probably named after
+            the vortex "Naruto" (which actually happened in the city of Naruto). Another interesting fact, is that his
+            mother, Kushina Uzumaki, is from the land of the whirlpool.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="../assets/dist/images/naruto.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Things you did not know about Dragon Ball ... <span class="text-muted">what's
+              the chance ...</span></h2>
+          <p class="lead">During Dragon Ball, Dragon Ball Z and Dragon Ball GT, Goku carried out the Kama Maha attack 97
+            times.
+
+            The actor who dubbed Goku in the English version, fainted during Goku's dubbing becomes Super Saiya 4 in the
+            Dragon Ball GT.
+
+            Burma had 17 hairstyles in the series
+            The creator of the series, Akira Toriyama, said his favorite character is Piccolo.
+
+            Goku's mother is called Gina
+
+            The battle between Goku and Paris lasted 3 and a half hours of screen time! (Of which probably 3 hours of
+            Goku shouting "Ahahahaha")
+
+            Hitler's character appeared in the movie Dragon Ball Z: Fusion Reborn
+            Biogi Ho has a card called "Tyler the Great Warrior" and is based on the character of Trunks.
+
+            Guten was supposed to replace Goku as the main character but there was a fear of anger from the fans.
+
+            Napa once had hair
+            Apart from Trunks, Burma and Makita also had a girl called 'Bra'.
+
+            Director James Wang claimed he had never seen any episode of the series and had not read the manga before
+            creating the movie 'Dragon Ball: Evolution' in 2009. (Now understand why this is a bad movie)
+
+            There are no nameky females, namak are born from an egg that comes out of the mouth. (What the hell?!)</p>
+        </div>
+        <div class="col-md-5">
+          <img src="../assets/dist/images/gokoFace.jpg"
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500"
+            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
+          </svg>
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2022- AnimaFilms ShortCut &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
